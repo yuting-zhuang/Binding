@@ -21,7 +21,7 @@ h1{
 	background-color: #FF2B2B;
 }
 .icon{
-	visibility: hidden;
+	display: none;
 }
 
 

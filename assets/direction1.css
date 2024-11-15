@@ -2,6 +2,11 @@ body{
 	padding: 30px;
 }
 
+header{
+	display: flex;
+	flex-direction: column;
+}
+
 h1{
 	font-family: Bebas Neue;
 	color: black;
@@ -35,12 +40,17 @@ h1{
 	display:block;
 }
 
-.info-container{
-	visibility: hidden;
+.time{
+	display: none;
+}
+
+.location{
+	display: none;
 }
 
 .author{
 	text-align: center;
+	margin-bottom: 10%;
 }
 
 .author-name{
