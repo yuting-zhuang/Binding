@@ -6,15 +6,65 @@ h1{
 	font-size: 32px;
 }
 
-.author{
+.big-size{
+	background-color: #FF2B2B;
+	color: white;
+	padding-right: 38%;
+}
+
+.small-size{
+	background-color: #FF2B2B;
+	color: white;
+	white-space: wrap;
+}
+
+.icon{
+	visibility: hidden;
+}
+
+.author-name{
+	font-family: "Roboto Mono";
 	font-size: 32px;
 	color:black
 }
 
-.info-container{
+.by{
+	display: none;
+}
+
+.time {
 	font-size: 32px;
 	color: #E1E1E1;
 }
+
+.location {
+	font-size: 32px;
+	color: #E1E1E1;
+}
+
+.left{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+}
+
+.right{
+	display: absolute;
+	flex-direction: column;
+	max-width: 50%;
+	white-space: normal;
+}
+
+.title-container1{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+}
+
+header{
+	margin-top: 10%;
+}
+
 
 h2{
 	font-size: 15px;
