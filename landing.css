@@ -32,10 +32,6 @@
 	background-color:#592BFF;
 }
 
-.folder:hover{
-	z-index: 100;
-}
-
 #folder2::before{
 	border-bottom: 50px solid #93FD65;
 }
