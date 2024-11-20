@@ -123,11 +123,32 @@ p{
 
 .quote-container{
 	font-size: 15px;
-	color: #ADADAD;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	position:relative;
+	z-index: 1;
+}
+.quote-container::before{
+	content: '';
+	width: 75%;
+	height: 77%;
+	top:30px;
+	left:50px;
+	position:absolute;
+	background-color: #8F70FF;
+	z-index: -1;
+}
+.quote-container::after{
+	content: '';
+	width: 77%;
+	height: 80%;
+	top: 30px;
+	left: 50px;
+	position:absolute;
+	background-color: #C0AFFF;
+	z-index: -4;
 }
 
 .q1{
@@ -138,7 +159,7 @@ p{
 	overflow:auto;
 	background-color: #6338FF;
 	/* padding: 10px; */
-}
+} 
 
 h3{
 	margin: 12px;
