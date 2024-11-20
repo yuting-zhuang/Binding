@@ -172,3 +172,10 @@ h3{
 .content-container{
 	margin-bottom: 7%;
 }
+
+.quote{
+	padding: 10px 10px 10px 10px;
+	background-color: #6338FF;
+	margin-left: 10%;
+	margin-right: 10%;
+}
