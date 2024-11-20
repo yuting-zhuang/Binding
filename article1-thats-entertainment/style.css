@@ -188,7 +188,7 @@ footer{
 	position: relative;
 	border: 2px solid black;
 	padding: 5px;
-	margin: 30px;
+	margin: 30px 30px 60px 30px;
 	width: 200px;
 	text-wrap: nowrap;
 	/* z-index: 1; */
