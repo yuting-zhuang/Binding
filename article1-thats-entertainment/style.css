@@ -134,21 +134,25 @@ p{
 	content: '';
 	width: 75%;
 	height: 77%;
-	top:30px;
-	left:50px;
+	/* top:30px;
+	left:50px; */
 	position:absolute;
 	background-color: #8F70FF;
 	z-index: -1;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 .quote-container::after{
 	content: '';
-	width: 77%;
-	height: 80%;
-	top: 30px;
-	left: 50px;
+	width: 75%;
+	height: 79%;
+	/* top: 30px;
+	left: 50px; */
 	position:absolute;
 	background-color: #C0AFFF;
 	z-index: -4;
+	margin-left: 20px;
+	margin-top: -200px;
 }
 
 .q1{
