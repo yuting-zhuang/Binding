@@ -132,6 +132,17 @@ p{
 
 .q1{
 	margin-bottom: 5%;
+	width: 300px;
+	height: 200px;
+	line-height: 1.5em;
+	overflow:auto;
+	background-color: #6338FF;
+	/* padding: 10px; */
+}
+
+h3{
+	margin: 12px;
+	color: white;
 }
 
 .content-container{
