@@ -30,7 +30,7 @@ header::before{
 }
 
 h1{
-	font-family: Bebas Neue;
+	font-family: "Bebas Neue";
 	color: black;
 	line-height: 0.9;
 	align-items: baseline;
