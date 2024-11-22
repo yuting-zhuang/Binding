@@ -1,3 +1,16 @@
+h1{
+	font-family: "roboto mono";
+	font-size: 36px;
+	padding: 40px 40px 0px 40px;
+}
+
+p{
+	font-family: "roboto mono";
+	font-size: 15px;
+	padding: 20px 40px 40px 40px;
+}
+
+
 
 .folder{
 	width: 100%;
@@ -10,6 +23,7 @@
 	margin-bottom:-350px;
 	line-height: 110px;
 	padding:30px;
+	padding-left: 10px;
 	z-index:1;
 	overflow-x: clip; 
 	text-wrap: nowrap;
