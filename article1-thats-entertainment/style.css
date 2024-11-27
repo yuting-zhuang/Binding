@@ -279,3 +279,21 @@ footer{
 	margin-left: 40px;
 	z-index: -5;
 } */
+
+@media (min-width:500px){
+
+	h3{
+		
+	}
+	.quote{
+		width: 50vw;
+		float: right;
+		display: block;
+		margin: 5%;
+	}
+	p{
+		display: inline-block;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
