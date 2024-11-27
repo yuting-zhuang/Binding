@@ -88,16 +88,19 @@ p{
 		font-family: "roboto mono";
 		font-size: 15px;
 		padding: 20px 40px 25px 40px;
-		max-width: 33vh;
+		
 	}
 
+
 	.text{
-		display: none;
+		width: 33vw;
+		text-wrap: balance;
+		line-height: 15px;
 	}
 
 	#folder1{
 		top: 0;
-		transition: top 1s ease-out;
+		transition: top 0.4s ease-out;
 	}
 
 	#folder1:hover{
@@ -116,11 +119,11 @@ p{
 	nav{
 		/* margin-top: 75vh; */
 		position:fixed;
-		bottom: 0;
+		bottom: -145px;
 	}
 
 	.folder{
-		width: 100%;
+		width: 33vw;
 		height: 80%;
 		
 		position: relative;
@@ -163,7 +166,7 @@ p{
 		background-color: #93FD65;
 		height: 50%;
 		margin-bottom: -100px;
-		margin-left: -350px;
+		/* margin-left: -350px; */
 	}
 	
 	#folder3::before{
