@@ -10,7 +10,11 @@ p{
 	padding: 20px 40px 25px 40px;
 }
 
-
+/* .grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding:10%;
+} */
 
 .folder{
 	width: 100%;
@@ -52,6 +56,7 @@ p{
 }
 #folder2{
 	background-color: #93FD65;
+	/* height: 50%; */
 }
 
 #folder3::before{
@@ -59,4 +64,75 @@ p{
 }
 #folder3{
 	background-color: #DD3DFD;
+	/* height: 40%; */
+	/* object-position: 40% 80%; */
 }
+
+/* @media (max-width:500px) {
+	h1{
+		font-family: "roboto mono";
+		font-size: 36px;
+		padding: 80px 40px 0px 40px;
+	}
+	
+	p{
+		font-family: "roboto mono";
+		font-size: 15px;
+		padding: 20px 40px 25px 40px;
+	}
+	 */
+	/* nav ul {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	} */
+	
+	/* .folder{
+		width: 100%;
+		height: 80%;
+		
+		position: relative;
+		margin-top:20px;
+		font-family: "Bebas Neue";
+		font-size: 140px;
+		margin-bottom:-480px;
+		line-height: 110px;
+		padding:30px;
+		padding-left: 10px;
+		padding-top: 40px;
+		z-index:1;
+		overflow-x: clip; 
+		text-wrap: nowrap;
+	}
+	
+	.folder::before{
+		content:'';
+		position: absolute;
+		top: -20px;
+		left:0px;
+		border-bottom: 30px solid #592BFF;
+		border-left: 0px solid transparent;
+		border-right: 25px solid transparent;
+		height: 0;
+		width: 155px;
+		z-index:-1;
+	}
+	
+	#folder1{
+		background-color:#592BFF;
+	}
+	
+	#folder2::before{
+		border-bottom: 50px solid #93FD65;
+	}
+	#folder2{
+		background-color: #93FD65;
+	}
+	
+	#folder3::before{
+		border-bottom: 50px solid #DD3DFD;
+	}
+	#folder3{
+		background-color: #DD3DFD;
+	}
+} */
