@@ -140,6 +140,7 @@ p{
 		background-color: #93FD65;
 		height: 50%;
 		margin-bottom: -100px;
+		margin-left: -350px;
 	}
 	
 	#folder3::before{
@@ -148,11 +149,20 @@ p{
 	#folder3{
 		background-color: #DD3DFD;
 		height: 50%;
+		/* margin-left: -350px; */
 		/* object-position: 40% 80%; */
 	}
 	
 	.flex-box{
 		display: flex;
+		flex-direction: row;
 	}
+
+	body{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
 	
 }
