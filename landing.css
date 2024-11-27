@@ -24,7 +24,7 @@ p{
 	margin-top:20px;
 	font-family: "Bebas Neue";
 	font-size: 140px;
-	margin-bottom:-480px;
+	margin-bottom:-340px;
 	line-height: 110px;
 	padding:30px;
 	padding-left: 10px;
@@ -49,6 +49,8 @@ p{
 
 #folder1{
 	background-color:#592BFF;
+	height: 50%;
+	margin-bottom: -100px;
 }
 
 #folder2::before{
@@ -56,7 +58,8 @@ p{
 }
 #folder2{
 	background-color: #93FD65;
-	/* height: 50%; */
+	height: 50%;
+	margin-bottom: -100px;
 }
 
 #folder3::before{
@@ -64,11 +67,17 @@ p{
 }
 #folder3{
 	background-color: #DD3DFD;
-	/* height: 40%; */
+	height: 50%;
 	/* object-position: 40% 80%; */
 }
 
-/* @media (max-width:500px) {
+.flex-box{
+	display: flex;
+	flex-direction: column;
+}
+
+
+@media (min-width:500px) {
 	h1{
 		font-family: "roboto mono";
 		font-size: 36px;
@@ -80,14 +89,14 @@ p{
 		font-size: 15px;
 		padding: 20px 40px 25px 40px;
 	}
-	 */
-	/* nav ul {
+	
+	nav ul {
 		display: flex;
 		flex-direction: column;
 		padding: 0;
-	} */
+	}
 	
-	/* .folder{
+	.folder{
 		width: 100%;
 		height: 80%;
 		
@@ -95,7 +104,7 @@ p{
 		margin-top:20px;
 		font-family: "Bebas Neue";
 		font-size: 140px;
-		margin-bottom:-480px;
+		margin-bottom:-340px;
 		line-height: 110px;
 		padding:30px;
 		padding-left: 10px;
@@ -120,6 +129,8 @@ p{
 	
 	#folder1{
 		background-color:#592BFF;
+		height: 50%;
+		margin-bottom: -100px;
 	}
 	
 	#folder2::before{
@@ -127,6 +138,8 @@ p{
 	}
 	#folder2{
 		background-color: #93FD65;
+		height: 50%;
+		margin-bottom: -100px;
 	}
 	
 	#folder3::before{
@@ -134,5 +147,12 @@ p{
 	}
 	#folder3{
 		background-color: #DD3DFD;
+		height: 50%;
+		/* object-position: 40% 80%; */
 	}
-} */
+	
+	.flex-box{
+		display: flex;
+	}
+	
+}
