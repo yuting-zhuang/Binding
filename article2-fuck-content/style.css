@@ -103,7 +103,6 @@ h1{
 	overflow-x: clip; 
 	text-wrap: nowrap;
 	/* width: 100vw; */
-
 }
 
 .title-container1{
@@ -116,8 +115,6 @@ h1{
 	justify-content: center;
 	width: fit-content;
 	padding-left: 43px;
-
-	/* width: 100vw; */
 }
 
 .title-container2{
@@ -214,7 +211,6 @@ p{
 		overflow-x: clip; 
 		text-wrap: nowrap;
 		/* width: 100vw; */
-	
 	}
 	
 	.title-container1{
@@ -223,8 +219,8 @@ p{
 		padding-bottom: 0;
 		margin-bottom: 0;
 		line-height: 120px;
-		align-items: center;
-		justify-content: center;
+		align-items: normal;
+		justify-content: normal;
 		width: fit-content;
 		padding-left: 43px;
 	}
@@ -237,15 +233,18 @@ p{
 	.big-size{
 		font-size: 140px;
 		display:block;
+		margin-left: 70px;
 	}
 	
 	.small-size{
 		font-size: 140px;
 		display:block;
+		margin-left: 110px;
 	}
 	
 	.icon{
 		font-size: 150px;
 		display:block;
+		margin-left: 130px;
 	}
 }
