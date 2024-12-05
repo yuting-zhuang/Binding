@@ -209,38 +209,14 @@ p{
 	line-height: 1.5em;
 }
 
-.quote-container{
+/* .quote-container{
 	font-size: 15px;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	position:relative;
-}
-.quote-container::before{
-	content: '';
-	width: 300px;
-	height: 200px;
-	/* top:30px;
-	left:50px; */
-	position:absolute;
-	background-color: #8F70FF;
-	z-index: -3;
-	margin-left: 10px;
-	margin-top: 10px;
-}
-.quote-container::after{
-	content: '';
-	width: 300px;
-	height: 200px;
-	/* top: 30px;
-	left: 50px; */
-	position:absolute;
-	background-color: #C0AFFF;
-	z-index: -4;
-	margin-left: 20px;
-	margin-top: -195px;
-}
+} */
 
 .quote-long{
 	margin-bottom: 5%;
@@ -249,6 +225,12 @@ p{
 	line-height: 1.5em;
 	overflow:auto;
 	background-color: #6338FF;
+
+	padding: 10px 10px 10px 10px;
+	background-color: #6338FF;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: right;
 } 
 
 h3{
