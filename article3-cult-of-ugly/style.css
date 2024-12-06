@@ -515,4 +515,15 @@ footer{
 		z-index: 3;
 	}
 
+	footer{
+		content: '';
+		font-family: "roboto mono";
+		font-size: 17px;
+		position: relative;
+		border: 2px solid black;
+		padding: 5px;
+		margin: 30px 30px 60px 120px;
+		width: 200px;
+		text-wrap: nowrap;
+	}
 }
