@@ -238,6 +238,7 @@ p:last-child{
 	margin-right: 16%;
 	float: middle;
 	margin-top: 20px;
+	box-shadow: 10px 10px 5px #AA93FF;
 } 
 
 blockquote{
@@ -251,6 +252,7 @@ blockquote{
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 20px;
+	box-shadow: 10px 10px 5px #AA93FF;
 }
 
 footer{
@@ -260,7 +262,7 @@ footer{
 	position: relative;
 	border: 2px solid black;
 	padding: 5px;
-	margin: 30px 30px 60px 30px;
+	margin: 30px 30px 60px 55px;
 	width: 200px;
 	text-wrap: nowrap;
 }
@@ -278,6 +280,8 @@ footer{
 		display: block;
 		/* margin: 5%; */
 		margin: 20px 100px 0px 0px;
+		box-shadow: 10px 10px 5px #AA93FF;
+
 	}
 
 	.quote-long{
@@ -286,6 +290,7 @@ footer{
 		display: block;
 		/* margin: 5%; */
 		margin: 20px 100px 0px 0px;
+		box-shadow: 10px 10px 5px #AA93FF;
 	}
 
 	p{
@@ -515,7 +520,7 @@ footer{
 		position: sticky;
 		z-index: 3;
 	}
-	
+
 	footer{
 		content: '';
 		font-family: "roboto mono";
