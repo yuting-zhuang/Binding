@@ -4,8 +4,10 @@
 
 h1{
 	font-family: "roboto mono";
-	font-size: 36px;
-	padding: 80px 40px 0px 40px;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 40px;
+	padding: 40px 40px 0px 40px;
 }
 
 p{
@@ -144,14 +146,16 @@ p{
 @media (min-width:500px) {
 	h1{
 		font-family: "roboto mono";
-		font-size: 36px;
-		padding: 80px 40px 0px 40px;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 70px;
+	padding: 70px 70px 0px 70px;
 	}
 	
 	p{
 		font-family: "roboto mono";
 		font-size: 15px;
-		padding: 20px 40px 25px 40px;
+		padding: 20px 70px 10px 70px;
 		
 	}
 
