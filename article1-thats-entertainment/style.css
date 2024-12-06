@@ -97,14 +97,13 @@ h1{
 	position: relative;
 	/* margin-top:30px; */
 	line-height: 110px;
-	padding:10px 30px 1px 30px;
+	padding:45px 30px 1px 30px;
 	margin: 30px 30px 0px 0px;
 	/* padding-left: 20px; */
 	/* margin-bottom: 20px; */
 	z-index:3;
 	overflow-x: clip; 
-	text-wrap: nowrap;
-
+	/* text-wrap: nowrap; */
 }
 
 .title-container1{
@@ -112,13 +111,14 @@ h1{
 	flex-direction: column;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	line-height: 80px;
+	line-height: 120px;
+	overflow-wrap: anywhere;
 }
 
-.title-container2{
-	padding: 30px 30px 30px 10px;
-	/* margin-top: 30px; */
-	transform: translateY(34%);
+.title-container3{
+	background-color:#592BFF;
+	padding-left: 30px;
+	padding-right: 20px;
 }
 
 .big-size{
@@ -127,12 +127,7 @@ h1{
 }
 
 .small-size{
-	font-size: 64px;
-	display:block;
-}
-
-.icon{
-	font-size: 225px;
+	font-size: 140px;
 	display:block;
 }
 
@@ -147,13 +142,20 @@ h1{
 .author-name{
 	border-radius: 0%;
 	border:2px solid #333;
-	margin-left: 35px;
 	font-family: "Roboto Mono";
 	font-size: 17px;
 	word-spacing: -6px;
 	padding: 5px;
 	/* padding-bottom: -50px; */
 	/* z-index: 10; */
+}
+
+.description{
+	font-family: "roboto mono";
+	color: black;
+	font-size: 15px;
+	margin: 0;
+	padding-bottom: 20px;
 }
 
 h2{
@@ -202,12 +204,13 @@ h2{
 }
 
 p{
-	font-family: "roboto";
-	padding: 0px 30px 0px 30px;
+	font-family: "Roboto";
+	padding: 0px 30px 0px 60px;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	line-height: 1.5em;
 }
+
 
 /* .quote-container{
 	font-size: 15px;
@@ -221,16 +224,16 @@ p{
 .quote-long{
 	margin-bottom: 5%;
 	width: 300px;
-	height: 200px;
+	height: 170px;
 	line-height: 1.5em;
 	overflow:auto;
 	background-color: #6338FF;
 
 	padding: 10px 10px 10px 10px;
 	background-color: #6338FF;
-	margin-left: 10%;
-	margin-right: 10%;
-	float: right;
+	margin-left: 16%;
+	margin-right: 16%;
+	float: middle;
 } 
 
 blockquote{
@@ -274,14 +277,6 @@ footer{
 	background-color: #592BFF;
 }
 
-.description{
-	font-family: "roboto mono";
-	color: black;
-	font-size: 15px;
-	margin: 0;
-	padding-bottom: 20px;
-}
-
 @media (min-width:500px){
 
 	.quote{
@@ -290,41 +285,106 @@ footer{
 		display: block;
 		margin: 5%;
 	}
+
+	.quote-long{
+		width: 50vw;
+		float: right;
+		display: block;
+		margin: 5%;
+	}
+
 	p{
 		display: inline-block;
 		margin-left: 5%;
 		margin-right: 5%;
 		max-width: 600px;
-
+		font-family: "roboto";
 	}
-
+	.title-container0{
+		display: flex;
+		flex-direction: row;
+	
+		background-color:#592BFF;
+	
+		width: 100%;
+		height: auto;
+		
+		position: relative;
+		/* margin-top:30px; */
+		line-height: 110px;
+		padding:10px 30px 1px 30px;
+		margin: 30px 30px 0px 0px;
+		/* padding-left: 20px; */
+		/* margin-bottom: 20px; */
+		z-index:3;
+		overflow-x: clip; 
+		/* text-wrap: nowrap; */
+	}
+	.title-container1{
+		/* display: flex;
+		flex-direction: column; */
+		padding-bottom: 0;
+		margin-bottom: 0;
+		line-height: 195px;
+		/* align-items: center;
+		justify-content: center;
+		width: fit-content; */
+		padding-top: 35px;
+		/* overflow-wrap: anywhere; */
+		min-width: 660px;
+	}
+	
+	
 	.big-size{
-		font-size: 140px;
+		font-size: 200px;
 		display:block;
 	}
 	
 	.small-size{
-		font-size: 140px;
+		font-size: 200px;
 		display:block;
 	}
 	
-	.icon{
-		font-size: 150px;
-		display:block;
-	}
-
-	.title-container1{
+	.header-container{
 		display: flex;
-		flex-direction: column;
-		padding-bottom: 0;
-		margin-bottom: 0;
-		line-height: 120px;
+		flex-direction: row;
+	
+		background-color:#592BFF;
+	
+		width: 100%;
+		height: auto;
+		
+		position: relative;
+		/* margin-top:30px; */
+		line-height: 110px;
+		padding:10px 30px 30px 100px;
+		margin: 30px 30px 0px 0px;
+		/* padding-left: 20px; */
+		/* margin-bottom: 20px; */
+		z-index:3;
+		overflow-x: clip; 
+		/* text-wrap: nowrap; */
+		/* width: 100vw; */
 	}
 
-	.title-container2{
-		padding: 30px 30px 30px 10px;
-		/* margin-top: 30px; */
-		transform: translateY(74%);
+	.title-container3{
+		padding: 30px 30px 30px 0px;
+		max-width: 450px;
+		margin-right: 90px;
+		/* transform: translateY(34%); */
+		/* text-wrap: normal;
+		overflow-wrap: anywhere; */
+	}
+	
+	.author{
+		width: 100%;
+		background-color: #592BFF;
+		padding-bottom: 0px;
+		padding-top: 10px;
+	}
+	
+	.description{
+		line-height: normal;
 	}
 
 	h2{

@@ -93,7 +93,7 @@ h1{
 	
 	position: relative;
 	line-height: 110px;
-	padding:10px 30px 1px 30px;
+	padding:45px 30px 1px 30px;
 	margin: 30px 30px 0px 0px;
 	z-index:3;
 	overflow-x: clip; 
@@ -144,7 +144,6 @@ h1{
 	/* align-items: center;
 	justify-content: center;
 	width: fit-content; */
-	padding-top: 35px;
 }
 
 .title-container3{
@@ -154,7 +153,7 @@ h1{
 }
 
 .big-size{
-	font-size: 150px;
+	font-size: 140px;
 	display:block;
 }
 
@@ -191,7 +190,13 @@ h1{
 	/* z-index: 10; */
 }
 
-
+.description{
+	font-family: "roboto mono";
+	color: black;
+	font-size: 15px;
+	margin: 0;
+	padding-bottom: 20px;
+}
 
 p{
 	font-family: "roboto";
@@ -205,13 +210,6 @@ p{
 	background-color: #93FD65;
 }
 
-.description{
-	font-family: "roboto mono";
-	color: black;
-	font-size: 15px;
-	margin: 0;
-	padding-bottom: 20px;
-}
 
 @media (min-width:500px){
 
@@ -328,7 +326,7 @@ p{
 	.title-container3{
 		padding: 30px 30px 30px 0px;
 		max-width: 450px;
-		margin-right: 100px;
+		margin-right: 90px;
 		/* transform: translateY(34%); */
 		/* text-wrap: normal; */
 	}
