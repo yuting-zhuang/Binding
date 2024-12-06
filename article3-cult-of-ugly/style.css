@@ -229,8 +229,48 @@ p:last-child{
 	padding-bottom: 60px;
 }
 
+blockquote{
+	margin: 12px;
+	color: white;
+}
+
+.quote{
+	padding: 10px 10px 10px 10px;
+	background-color: #DD3DFD;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+}
+
+footer{
+	content: '';
+	font-family: "roboto mono";
+	font-size: 17px;
+	position: relative;
+	border: 2px solid black;
+	padding: 5px;
+	margin: 30px 30px 60px 30px;
+	width: 200px;
+	text-wrap: nowrap;
+}
 
 @media (min-width:500px){
+
+	.quote{
+		width: 50vw;
+		float: right;
+		display: block;
+		/* margin: 5%; */
+		margin: 20px 100px 0px 0px;
+	}
+
+	p{
+		display: inline-block;
+		margin-left: 5%;
+		margin-right: 5%;
+		max-width: 700px;
+		font-family: "roboto";
+	}
 
 	h1{
 		font-family: "Bebas Neue";
@@ -261,41 +301,6 @@ p:last-child{
 		text-wrap: nowrap;
 		/* width: 100vw; */
 	}
-	
-	/* .title-container1{
-		display: flex;
-		flex-direction: column;
-		padding-bottom: 0;
-		margin-bottom: 0;
-		line-height: 120px;
-		align-items: normal;
-		justify-content: normal;
-		width: fit-content;
-		padding-left: 43px;
-	}
-	
-	.title-container2{
-		padding: 30px 30px 30px 10px;
-		transform: translateY(74%);
-	}
-	
-	.big-size{
-		font-size: 140px;
-		display:block;
-		margin-left: 70px;
-	}
-	
-	.small-size{
-		font-size: 140px;
-		display:block;
-		margin-left: 110px;
-	}
-	
-	.icon{
-		font-size: 150px;
-		display:block;
-		margin-left: 130px;
-	} */
 
 	.title-container1{
 		display: flex;
@@ -361,7 +366,153 @@ p:last-child{
 		line-height: normal;
 	}
 
+	h2{
+		font-size: 40px;
+	}
 
+	.container{
+		position: sticky;
+		top: -1px;
+		display: flex;
+		flex-direction: row;
+		border-left: none;
+	}
 
+	.tab-1{
+		width: 34px;
+		background-color: #6E0084;
+	}
+
+	.title1{
+		color: #6E0084;
+		font-size: 24px;
+		font-family: "Bebas Neue";
+		white-space: nowrap;
+		border-radius: 0%;
+		border-bottom: 6px solid;
+		border-color: #6E0084;
+		background-color: white;
+		position:relative;
+		margin: 0;
+		z-index: 1;
+		position: sticky;
+	}
+
+	.tab-2{
+		width: 34px;
+		background-color: #850B9D;
+	}
+	.title2{
+		color: #850B9D;
+		white-space: nowrap;
+		border-radius: 0%;
+		border-bottom: 6px solid;
+		border-color: #850B9D;
+		background-color: white;
+		position:relative;
+		margin: 0;
+		z-index: 2;
+		position: sticky;
+	}
+
+	.tab-3{
+		width: 34px;
+		background-color: #A112BE;
+	}
+
+	.title3{
+		color: #A112BE;
+		font-size: 24px;
+		font-family: "Bebas Neue";
+		white-space: nowrap;
+		border-radius: 0%;
+		border-bottom: 6px solid;
+		border-color: #A112BE;
+		background-color: white;
+		position:relative;
+		margin: 0;
+		position: sticky;
+		z-index: 3;
+	}
+
+	.tab-4{
+		width: 34px;
+		background-color: #B714D7;
+	}
+
+	.title4{
+		color: #B714D7;
+		font-size: 24px;
+		font-family: "Bebas Neue";
+		white-space: nowrap;
+		border-radius: 0%;
+		border-bottom: 6px solid;
+		border-color: #B714D7;
+		background-color: white;
+		position:relative;
+		margin: 0;
+		position: sticky;
+		z-index: 3;
+	}
+
+	.tab-5{
+		width: 34px;
+		background-color: #D020F3;
+	}
+
+	.title5{
+		color: #D020F3;
+		font-size: 24px;
+		font-family: "Bebas Neue";
+		white-space: nowrap;
+		border-radius: 0%;
+		border-bottom: 6px solid;
+		border-color: #D020F3;
+		background-color: white;
+		position:relative;
+		margin: 0;
+		position: sticky;
+		z-index: 3;
+	}
+
+	.tab-6{
+		width: 34px;
+		background-color: #DC4AF9;
+	}
+
+	.title6{
+		color: #DC4AF9;
+		font-size: 24px;
+		font-family: "Bebas Neue";
+		white-space: nowrap;
+		border-radius: 0%;
+		border-bottom: 6px solid;
+		border-color: #DC4AF9;
+		background-color: white;
+		position:relative;
+		margin: 0;
+		position: sticky;
+		z-index: 3;
+	}
+
+	.tab-7{
+		width: 34px;
+		background-color: #E97CFF;
+	}
+
+	.title7{
+		color: #E97CFF;
+		font-size: 24px;
+		font-family: "Bebas Neue";
+		white-space: nowrap;
+		border-radius: 0%;
+		border-bottom: 6px solid;
+		border-color: #E97CFF;
+		background-color: white;
+		position:relative;
+		margin: 0;
+		position: sticky;
+		z-index: 3;
+	}
 
 }
